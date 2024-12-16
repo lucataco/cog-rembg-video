@@ -16,6 +16,7 @@ build:
     - "tqdm==4.66.2"
     - "kornia==0.7.1"
     - "transparent-background==1.2.12"
+    - "numpy<2"
 
 # predict.py defines how predictions are run on your model
 predict: "predict.py:Predictor"
